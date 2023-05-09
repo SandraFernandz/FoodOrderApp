@@ -4,12 +4,13 @@
   border: none;
   background-color: #4d1601;
   color: white;
-  padding: 0.75rem 3rem;
+  padding: 4px 8px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-radius: 25px;
+  border-radius: 8px;
   font-weight: bold;
+  font-size: 8px;
 }
 
 .button:hover,
@@ -24,7 +25,7 @@
 }
 
 .badge {
-  background-color: #b94517;
+  background-color: #ce6625;
   padding: 0.25rem 1rem;
   border-radius: 25px;
   margin-left: 1rem;
@@ -33,7 +34,7 @@
 
 .button:hover .badge,
 .button:active .badge {
-  background-color: #92320c;
+  background-color: #ce6625;
 }
 
 .bump {
